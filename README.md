@@ -1,4 +1,4 @@
-# ⏰ Digital Clock - Live Date and Time Display  
+# ⏰ Digital Clock - Live Date, Time & Day Display  
 ![Digital Clock](clock.png)  
 
 A **JavaScript-powered Real-Time Digital Clock** that dynamically updates every second. This project is designed for **web developers, beginners, and UI enthusiasts** who want to explore **JavaScript's Date API, DOM manipulation, and dynamic time rendering**.  
