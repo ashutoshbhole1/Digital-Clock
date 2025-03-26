@@ -8,7 +8,7 @@ function updateClock() {
     let d = new Date(); 
      // so that everytime the d as a date object create so the interval will work 
 
-    time.innerHTML = d.toLocaleTimeString();
+    time.innerHTML = d.toLocaleTimeString('en-Us',{hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true});
     // date.innerHTML = d.toLocaleDateString();
 
     date.innerHTML = `${d.getDate()}-${d.getMonth() + 1}-${d.getFullYear()} `;
