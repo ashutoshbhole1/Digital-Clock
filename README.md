@@ -38,3 +38,9 @@ This project is perfect for:
 ```bash
 git clone https://github.com/ashutoshbhole1/Digital-Clock.git
 cd Digital-Clock
+```
+### **2️⃣ Embed in Your Website**
+```bash
+<iframe src="https://ashutoshbhole1.github.io/Digital-Clock/" width="300" height="100" frameborder="0"></iframe>
+
+```
