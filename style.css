@@ -15,7 +15,8 @@ main{
     width: 100dvw;
 }
 .container{
-    background: #131212;
+    /* background: linear-gradient(45deg,#2a0303,#210202); */
+    background-color: #000;
     height: 100%;
     width: 100%;
     display: flex;
@@ -27,12 +28,12 @@ main{
     min-width: 35rem;
     min-height: 27rem;
     padding: 2.5rem 1.5rem;
-    box-shadow: 2px 3px 35px #801f1f;
-    background: linear-gradient(#111,#000000);
+    box-shadow: 2px 3px 65px #801f1f;
+    background: linear-gradient(120deg,#202020,#000000);
     color: #fff;
     display: flex;
     border-radius: 1rem;
-    border: 1px solid #ff6060da;
+    border: .6px solid #ff6b6bdb;
     justify-content: center;
     align-items: center;
 }
@@ -48,7 +49,7 @@ main{
     padding: 1rem 1rem;
     min-width:23rem;
     border-radius: .4rem;
-    box-shadow: inset 1px 2px 10px #605d5da5;
+    box-shadow: inset 1px 2px 15px #605d5da5;
     border: 1px solid #ffffff7d;
 }
 .clock .div p{
@@ -61,4 +62,43 @@ main{
     letter-spacing: 1px;
     color: #ff0000;
     filter: drop-shadow(0 0 3px red);
+}
+
+@media screen and (max-width:600px) {
+
+    .container{
+    height: 100%;
+    width: 100%;
+}
+
+.container .clock-wrapper{
+    min-width: 90%;
+    min-height: 21rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 45px #801f1f;
+    border: .6px solid #ff6b6b98;
+}
+
+.clock{
+    gap: 1rem;
+    width: 100%;
+}
+
+.clock .div {
+    background: #191818;
+    padding: .6rem;
+    min-width:90%;
+    border-radius: .4rem;
+    box-shadow: inset 1px 2px 10px #605d5da5;
+    border: 1px solid #ffffff7d;
+}
+.clock .div p{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: #aaa;
+}
+.clock .div span{
+    font-size: 2.6rem;
+}
 }
