@@ -20,5 +20,12 @@ setInterval(updateClock, 1000);
 updateClock();              // function call
 
 
+// let a = 1, b = 2;
 
+// a = a^b;
+// b = a^b;
+// a = a^b;
 
+// console.log(b)  // its due to XOR operation and using the bit method to do so ...a. ex : a = 1 (01 in binary) & b = 2 (10 in binary)
+
+// // and 10^01 ==== >  1^0 = 1 , 0^1 = 1 
